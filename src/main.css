@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+/* Header Starts */
+#header1 {
+    background-color: #006341;
+    width: 100%;
+    height: 10px;
+}
+
+
+/* Nav1 Div Starts */
+#nav1 {
+    background-color: #f7f7f7;
+    height: 90px;
+    top:0;
+    /* position: sticky !important; */
+}
+.navbar1 {
+        position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 18.5rem !important;
+    }
+/* Logo */
+.logo {
+    margin-left: 46px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.logo>img {
+    width: 66px;
+    height: 66px;
+}
+
+/* Find Store Location */
+#findStore {
+    margin-left: 88%;
+    margin-top: -4.5%;
+}
+
+#findStore>a {
+    text-decoration: none;
+    color: #5b5959 !important;
+}
+
+.fa-map-marker-alt {
+    display: inline;
+    color: #006341;
+}
+
+.find {
+    display: inline;
+    padding-left: 4px;
+}
+.signOut{
+    /* border: 2px solid; */
+    margin-left: 7%;
+    margin-top: -2%;
+    position: absolute;
+}
+#signinMsg{
+    vertical-align: top;
+    margin-left: -179%;
+    margin-top: -15%;
+}
+/* condtional hader sm */
+#conditionalHeadersm{
+    display: none;
+}
+#conditionalHeaderxl{
+    margin-left: 52%;
+    margin-top: -12%;
+}
+#signinMsgXl{
+    position: absolute;
+    /* border: 2px solid; */
+    display: inline-block;
+    width: 17%;
+    margin-left: -29%;
+    margin-top: -0.5%;
+}
+
+/* end */
+
+/* Navigation Menu Starts */
+.navbar {
+    background-color: #f7f7f7;
+    height: 110px;
+    top:0;
+    position: sticky !important;
+    
+}
+.navbar-toggler{
+    border:2px solid white;
+    position: fixed;
+}
+#navigationMenu {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.navbar-nav {
+    margin-left: 5%;
+}
+#signIn{
+   visibility:hidden;
+}
+.nav-item>a {
+    text-decoration: none;
+    color: #242221;
+    font-size: 16px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    padding: 0.5%;
+}
+
+.nav-item>a:hover {
+    background-size: 28px;
+    background-color: #242221;
+    color: #FFF !important;
+}
+
+/* Geolocation & Weather */
+#weather {
+    position: absolute;
+    display: inline-block;
+    margin-left: 77%;
+    margin-top: 2%;
+    color: #006341;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 79%;
+}
+
+/* Navigation Menu Ends */
+
+/* Social Icon Div Starts */
+#section12 {
+    height: 100px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid white;
+}
+
+.fab {
+    font-size: 33px;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #3d3935 !important;
+}
+
+.fab:hover {
+    color: #5b5959 !important;
+}
+
+/* Social Icon Div Ends */
+
+/* Footer Starts */
+footer {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+#footer1 {
+    width: 90%;
+    float: left;
+}
+
+#category1 {
+    display: inline-block;
+    margin-top: 4.45%;
+    margin-left: 3%;
+    width: 10%;
+}
+
+#category2 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 15%;
+    margin-left: 0%;
+}
+
+#category3 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 10%;
+    margin-left: 17%;
+}
+
+.heading {
+    color: #3d3935 !important;
+}
+
+.heading:hover {
+    color: #a1a1a1 !important;
+}
+
+.subHeadings {
+    color: #3d3935 !important;
+}
+
+.subHeadings:hover {
+    color: #a1a1a1 !important;
+}
+
+#subHeading2 {
+    line-height: 1px;
+}
+
+.footerLinks {
+    text-decoration: none;
+}
+
+#category4 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.footerLinks2 {
+    text-decoration: none;
+    color: #5b5959 !important;
+    font-size: 14px;
+}
+
+.footerLinks2:hover {
+    color: #a1a1a1 !important;
+}
+
+#category5>p {
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 11px;
+    color: #5b5959;
+}
+
+#footer2 {
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+#starbucksWordMark {
+    height: 160px;
+}
+
+/* Footer Ends */
+
+
+/* Accordion Starts */
+#accordionFooter {
+    position: absolute;
+    width: 100%;
+    background-color: #f7f7f7 !important;
+}
+
+.accordion-item,
+.accordion-header,
+.accordion-button,
+.accordion-body {
+    background-color: #f7f7f7 !important;
+}
+
+.accordionLinks {
+    text-decoration: none;
+    color: #3d3935 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.accordionSubLinks {
+    text-decoration: none;
+    color: #3d3935 !important;
+    font-size: 14px;
+}
+
+/* Accordion Ends */
+
+/* Footer Links in Responsive Design Starts */
+#ResponsiveFooterLinks {
+    position: absolute;
+}
+
+#ResponsiveFooterLinks>a {
+    text-decoration: none;
+    color: #5b5959 !important;
+    font-size: 14px;
+}
+
+#ResponsiveFooterLinks>a:hover {
+    color: #a1a1a1 !important;
+}
+
+/* Footer Links in Responsive Design Ends */
+
+/* Drop Down Menu Starts */
+/* Coffee Drop Down */
+#coffeeDropDown {
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 420px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#coffeeDropDown1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+.list-unstyled {
+    display: inline-block;
+    width: 24%;
+    height: 153px;
+    padding: 3%;
+    vertical-align: top;
+}
+
+
+.list-unstyled>li>a {
+    color: #fff !important;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 13px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.list-unstyled>li>a:hover {
+    background-color: green !important;
+}
+
+#menuHeading {
+    font-size: 15px;
+    font-size: bold;
+}
+
+#coffeeDropDown2 {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#coffeeDropDown2>img {
+    display: block;
+    height: 140px;
+    width: 100%;
+}
+
+#coffeeSubDiv {
+    margin-top: -3%;
+}
+
+/* Menu Drop Down*/
+#menuDropDown {
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 360px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#menuDropDown1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#menuDropDown1>.list-unstyled {
+    height: 290px;
+}
+
+#menuDropDown2 {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#MenuDropDown2>img {
+    display: block;
+    height: 180px;
+    width: 100%;
+}
+
+/* CoffeeHouse Drop Down */
+#coffeeHouseDropDown {
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#coffeeHouseDropDown1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#coffeeHouseDropDown1>.list-unstyled {
+    height: 240px;
+}
+
+#coffeeHouseDropDown2 {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#coffeeHouseDropDown2>img {
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+#downloadApp {
+    text-decoration: none;
+    color: white !important
+}
+
+#starbucksApp {
+    z-index: 100;
+    margin-top: -99%;
+    width: 65%;
+    height: 220px;
+    margin-left: 14%;
+}
+
+#starbucksApp:hover {
+    background-color: green;
+}
+
+#starbucksApp>img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+
+#starbucksApp>h6 {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    margin-left: 2.5%;
+}
+
+#starbucksApp>p {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    margin-left: 2.5%;
+    font-size: 14px;
+}
+
+
+/* Responsibility Drop Down */
+#responsibilityDropDown {
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 415px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#responsibilityDropDown1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#responsibilityDropDown1>.list-unstyled {
+    width: 22%;
+    height: 180px;
+}
+
+#responsibilityDropDown2 {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#responsibilityDropDown2>img {
+    display: block;
+    height: 138px;
+    width: 100%;
+}
+
+/* About Us Drop Down */
+#aboutUsDropDown {
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#aboutUsDropDown1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#aboutUsDropDown2 {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#aboutUsDropDown2>img {
+    display: block;
+    height: 220px;
+    width: 100%;
+}
+
+/* Drop Down Menu Ends */
+
+/* Code for responsive designing using Media Query*/
+
+@media screen and (max-width: 2000px) {
+    #accordionFooter {
+        visibility: hidden;
+    }
+
+    #ResponsiveFooterLinks {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:1800px) {
+    #weather {
+
+        margin-top: 2.5%;
+
+    }
+
+    #icon {
+
+        margin-top: 0.5%;
+    }
+    #signinMsgXl{
+        margin-left: -29%;
+        margin-top: -1.5%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #weather {
+
+        margin-top: 3.5%;
+        margin-left: 75%;
+
+    }
+
+    #icon {
+
+        margin-top: 1%;
+        margin-left: 77.5%;
+    }
+
+    #findStore {
+        margin-top: -4%;
+    }
+    #signinMsgXl{
+        
+        display: inline-block;
+        width: 20%;
+        margin-left: -33%;
+        margin-top: -3.5%;
+    
+        }
+        #conditionalHeaderxl {
+            margin-left: 60%;
+            margin-top: -12%;
+        }
+}
+
+@media screen and (max-width:1500px) {
+    #weather {
+        margin-top: 4%;
+        margin-left: 74%;
+
+    }
+
+    #icon {
+
+        margin-top: 1%;
+        margin-left: 76.5%;
+    }
+    #signinMsgXl{
+        
+    display: inline-block;
+    width: 20%;
+    margin-left: -33%;
+    margin-top: -3.5%;
+
+    }
+    #conditionalHeaderxl {
+        margin-left: 63%;
+        margin-top: -14%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .subHeadings,
+    .heading,
+    .footerLinks2 {
+        font-size: 14px;
+    }
+
+    #weather {
+
+        margin-top: 4.5%;
+        margin-left: 73%;
+
+    }
+
+    #icon {
+
+        margin-top: 2%;
+        margin-left: 75%;
+    }
+    #signinMsgXl{
+        
+        width: 23%;
+        margin-left: -37%;
+        margin-top: -4.5%;
+    
+    
+        }
+        #findStore {
+            /* border: 2px solid; */
+            margin-top: -4%;
+            width: 14%;
+            margin-left: 86%;
+        }
+        #conditionalHeaderxl {
+           
+            margin-top: -14%;
+        }
+}
+
+@media screen and (max-width: 1300px) {
+
+    #weather {
+
+        margin-top: 5%;
+        margin-left: 73%;
+
+    }
+
+    #icon {
+
+        margin-top: 2%;
+        margin-left: 75%;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    #category1 {
+        margin-left: 5%;
+        width: 11%;
+    }
+
+    #category2 {
+        margin-left: 2%;
+        width: 18%;
+    }
+
+    #category3 {
+        margin-left: 20%;
+        width: 15%;
+    }
+
+    #weather {
+
+        margin-top: 6%;
+        margin-left: 71%;
+
+    }
+
+    #icon {
+
+        margin-top: 3.5%;
+        margin-left: 73%;
+    }
+    #signinMsgXl {
+        width: 26%;
+        margin-left: -43%;}
+        #conditionalHeaderxl {
+            margin-left: 71%;
+        }
+}
+
+
+/* @media screen and (max-width:1200px) {
+    #section, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9{
+        height: 100%;
+        width: 100%; 
+        background-position-x: 46%;
+    }
+    #section8{
+        background-position-x: 70%;
+    }
+} */
+@media screen and (max-width: 1148px) {
+    .navbar-nav {
+        width: 84%;
+        text-align: center;
+    }
+
+    #weather {
+
+        margin-top: 6%;
+        margin-left: 71%;
+
+    }
+
+    #icon {
+
+        margin-top: 3%;
+        margin-left: 74%;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    #category1 {
+        margin-left: 6%;
+        width: 13%;
+    }
+
+    #category2 {
+        margin-left: 2%;
+        width: 18%;
+    }
+
+    #category3 {
+        margin-left: 22%;
+        width: 15%;
+    }
+
+    #category4 {
+        margin-top: 6%;
+    }
+
+    #weather {
+
+margin-top: 6%;
+    margin-left: 62%;
+
+    }
+
+    #icon {
+
+            margin-top: 3%;
+    margin-left: 66%;
+    }
+    #findStore{
+        margin-left:80%;
+    }
+}
+
+@media screen and (max-width: 1104px) {
+
+    #weather {
+
+        margin-top: 6%;
+        margin-left: 58%;
+    }
+
+
+    #icon {
+
+        margin-top: 3%;
+        margin-left: 62%;
+    }
+
+    #findStore{
+        margin-top: -6%;
+        margin-left: 80%;
+    }
+    #signinMsgXl {
+        width: 28%;
+        margin-left: -48%;
+    }
+    #conditionalHeaderxl {
+        margin-left: 82%;
+        margin-top: -18%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    #header1 {
+        background-color: #006341;
+        width: 103.3%;
+        height: 10px;
+    }
+    .find {
+        visibility: hidden;
+    }
+    #signIn{
+        visibility: visible;
+    }
+
+    #findStore {
+
+        margin-left: 87%;
+        margin-top: -6%;
+
+    }
+#conditonalHeaderxl{
+    display: none;
+}
+#conditionalHeadersm{
+    display: contents;
+    color: #fff;
+}
+    .navbar {
+        height: 0px;
+    }
+    .nav-item>a {
+        text-decoration: none;
+        color: #f9fafb;
+    }
+    .navbar-toggler {
+        position: absolute;
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+    #signinMsgXl {
+        display: none;
+    }
+    .signOutXl{
+        display: none;
+    }
+    .signOutSm{
+        color: white;
+
+    }
+    #navIcon:focus:not(focus-visible) {
+        position: sticky;
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+
+    #coffeeDropDown {
+        display: none;
+    }
+
+    #menuDropDown {
+        display: none;
+    }
+
+    #coffeeHouseDropDown {
+        display: none;
+    }
+
+    #responsibilityDropDown {
+        display: none;
+    }
+
+    #aboutUsDropDown {
+        display: none;
+    }
+
+    .container-fluid {
+     
+        /* position: absolute; */
+        background-color: black;
+    }
+
+    .nav-link.active {
+        color: #ffffffe6 !important;
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+
+    #weather {
+
+        margin-top: 4%;
+        margin-left: 61%;
+        top: 5%;
+
+    }
+
+    #icon {
+
+        margin-top: 1%;
+        margin-left: 64%;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+    #category1 {
+        margin-left: 7%;
+        width: 18%;
+    }
+
+    #category2 {
+        margin-left: 3%;
+        width: 19%;
+    }
+
+    #category3 {
+        margin-left: 25%;
+        width: 18%;
+    }
+
+    #category4 {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #findStore {
+        margin-left: 85%;
+        margin-top: -9%
+    }
+
+    .navbar-toggler {
+        margin-left: 87%;
+        margin-top: -12%
+    }
+    #navIcon:focus:not(focus-visible) {
+        position: sticky;
+        margin-left: 87%;
+        margin-top: -12%;
+    }
+
+
+    .fa-map-marker-alt {
+        margin-top: 5% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        height: 460px;
+    }
+   
+    #category1 {
+        visibility: hidden;
+    }
+
+    #category2 {
+        visibility: hidden;
+    }
+
+    #category3 {
+        visibility: hidden;
+    }
+
+    #category4 {
+        visibility: hidden;
+    }
+
+    #category5 {
+        margin-top: 37%;
+    }
+
+    #footer2 {
+        visibility: hidden;
+    }
+
+    #accordionFooter {
+        visibility: visible;
+        margin-top: 12%;
+        z-index: 100;
+    }
+
+    #ResponsiveFooterLinks {
+        visibility: visible;
+        margin-top: 47%;
+        margin-left: 4%;
+    }
+
+    #weather {
+
+        margin-top: 1%;
+    margin-left: 59%;
+    top: 6%;
+
+    }
+
+    #icon {
+
+        margin-top: 2%;
+        margin-left: 62%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header1 {
+        /* background-color: #006341; */
+        width: 100%;
+      
+    }
+    #findStore {
+        margin-left: 81%;
+        margin-top: -13%;
+    }
+
+    .navbar-toggler {
+        margin-left: 84%;
+        margin-top: -20%
+    }
+
+   
+      #weather {
+        margin-top: 1%;
+        margin-left: 51%;
+        top: 5%;
+    
+
+    }
+    #navIcon:focus:not(focus-visible) {
+        position: sticky;
+        margin-left: 84%;
+        margin-top: -20%;
+    }
+
+    #icon {
+
+        margin-top: 2%;
+        margin-left: 53%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #section11 {
+        height: 460px;
+    }
+
+    footer {
+        height: 480px;
+    }
+
+    #ResponsiveFooterLinks {
+        margin-top: 59%;
+    }
+
+    #category5 {
+        margin-top: 55%;
+    }
+    #weather {
+        margin-top: 2%;
+        margin-left: 43%;
+        top: 5%;
+
+    }
+
+    #icon {
+
+        margin-top: 2%;
+        margin-left: 46%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .navbar-toggler {
+        margin-left: 79%;
+    }
+
+    #findStore {
+        margin-left: 74%;
+    }
+
+    #ResponsiveFooterLinks {
+        margin-top: 60%;
+    }
+    #weather {
+        margin-top: 5%;
+        margin-left: 31%;
+        top: 5%;
+
+    }
+
+    #icon {
+
+        margin-top: 6%;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .logo {
+        margin-left: 25px;
+    }
+
+    .navbar-toggler {
+        margin-left: 73%;
+    }
+
+    #findStore {
+        margin-left: 68%;
+    }
+
+    #weather {
+        margin-left: -3%;
+    }
+
+    #ResponsiveFooterLinks {
+        margin-top: 67%;
+    }
+    #weather {
+        margin-top: 8%;
+        margin-left: 27%;
+        top: 5%;
+    
+    }
+
+    #icon {
+
+        margin-top: 8%;
+        margin-left: 31%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #ResponsiveFooterLinks {
+        margin-top: 70%;
+    }
+    #weather {
+        margin-top: 9%;
+        margin-left: 19%;
+        top: 5%;
+
+    }
+ #findStore {
+    margin-left: 69%;
+    margin-top: -21%;
+    }
+    #icon {
+        margin-top: 7%;
+        margin-left: 23%;
+
+    }
+    .navbar-toggler{
+        margin-top: -31%;
+        
+    }
+   
+}

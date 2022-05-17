@@ -1,0 +1,64 @@
+.map-container {
+    position: absolute;
+    display: inline-block;
+    height: 646px;
+    width: 99%;
+    margin-top: 1%;
+    border: 5px solid #006341;
+}
+#storeContain {
+   
+    width: 100%;
+   
+}
+#storeBox{
+    height: 300px;
+    width: 95%;
+    border: 2px solid  #006341;
+    margin-left: 2.5%;
+    color: #006341;
+    margin-top: -134%;
+}
+#storeComponent{
+    float:left;
+    border: 2px solid  #006341;
+    width: 17%;
+    height:200px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+/* search bar */
+
+    #searchStore {
+        border: 2px solid;
+        margin-left: 2%;
+        height: 50px;
+        width: 71%;
+        text-align: center;
+    }
+
+
+/* Pagination css */
+/* Media Querry */
+@media screen and (max-width:991px){
+    .map-container{
+        width:98%;
+        margin-left: 1%;
+    }
+    #storeContain{
+        margin-top:10%;
+    }
+    #searchmapBox{
+        display: block;
+        
+       
+    }
+    #searchStore {
+        text-align: center;
+        width: 97%;
+    }
+    #storeComponent {
+        width: 321%;
+    }
+    
+}
